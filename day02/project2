@@ -2,14 +2,14 @@ import numpy as np
 import matplotlib.pyplot as plt
  
 # 创建时间轴
-t = np.linspace(0, 1, 500)  # 从0到1秒，共500个点
+t=np.linspace(0 , 10 , 11)  #在0-10中均匀取11个点，即0，1，2...10
  
 # 生成正弦波信号
-signal = np.sin(2 * np.pi * 5 * t)  # 频率为5Hz的正弦波
+signal = np.sin(2 * np.pi * 0.1 * t)  # 频率为5Hz的正弦波
  
 # 绘制信号图像
 plt.figure(figsize=(10, 4))  # 设置图像大小
-plt.plot(t, signal)  # 绘制信号
+plt.stem(t, signal)  # 绘制离散信号
 plt.title('3220432028')  # 设置标题
 plt.xlabel('t')  # 设置x轴标签
 plt.ylabel('f(t)')  # 设置y轴标签
