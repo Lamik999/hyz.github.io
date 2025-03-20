@@ -10,7 +10,7 @@ signal = np.sin(2 * np.pi * 5 * t)  # 频率为5Hz的正弦波
 # 绘制信号图像
 plt.figure(figsize=(10, 4))  # 设置图像大小
 plt.plot(t, signal)  # 绘制信号
-plt.title('正弦信号-3220432028')  # 设置标题
+plt.title('3220432028')  # 设置标题
 plt.xlabel('t')  # 设置x轴标签
 plt.ylabel('f(t)')  # 设置y轴标签
 plt.grid(True)  # 显示网格
